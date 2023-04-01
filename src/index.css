@@ -1,0 +1,13 @@
+:root {
+  --primary: #0d1b2a;
+  --secondary: #415a77;
+  --button: #1b263b;
+  --hover: #778da9;
+  --white: white;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}

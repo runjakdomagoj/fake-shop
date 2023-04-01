@@ -1,0 +1,39 @@
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px 50px;
+    padding: 20px 0px;
+}
+
+button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: var(--white);
+    background: var(--button);
+    margin-top: 20px;
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--hover);
+    transition: 0.5s ease-in-out;
+}
+
+
+@media screen and (max-width: 768px) {
+    .products {
+        padding: 10px 0px;
+        gap: 10px 30px;
+    }
+
+    button {
+        display: none;
+    }
+}
